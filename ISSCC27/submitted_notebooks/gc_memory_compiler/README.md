@@ -5,7 +5,7 @@ gain-cell eDRAM macros -- bitcell, array, periphery, decoder and replica column 
 timing, retention, a refresh controller and (with LibreLane) a signed-off hard block, for SkyWater
 sky130 and IHP SG13G2. The notebook is executed: every output is from a full local run.
 
-* **Code:** https://github.com/barakhoffer/gc_compiler, release `v1.0`.
+* **Code:** https://github.com/barakhoffer/gc_compiler, release `v1.1`.
 * **Run on Colab:** open the notebook's badge; its setup cells install the tools (via Nix), both PDKs
   and the compiler at that release. `FULL` also runs the slowest checks.
 * **Run locally:** clone the repository and run inside `nix-shell`.
